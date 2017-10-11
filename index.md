@@ -1,4 +1,4 @@
-大板同官网  (www.yhdnt.pw)
+大板同官网  (www.yhdbt.pw)
 --------------------
 
 ### 【游戏规则】
@@ -20,7 +20,7 @@
 
 ### 【游戏下载】
 [Windwos 点击此处](http://lazypos.pw:51888/yhdbt_steup_61.exe) 版本：6.1.1008
-[Android 暂不支持]()
+[Android 点击此处](http://lazypos.pw:51888/yhdbt_61.apk) 版本：6.1
 [Mac OS 暂不支持]()
 [IOS 暂不支持]()
 
