@@ -8,7 +8,7 @@
 [点击此处进行注册](http://lazypos.pw:51888/regist.html)
 
 ### 【账号充值】
-[点击此处进行注册](http://lazypos.pw:51888/charge.html)
+[点击此处进行充值](http://lazypos.pw:51888/charge.html)
 
 ### 【安装说明】
 ###### windows (支持Vista及以上，不支持XP/2003)
