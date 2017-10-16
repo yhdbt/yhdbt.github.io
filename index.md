@@ -7,6 +7,9 @@
 ### 【账号注册】
 [点击此处进行注册](http://lazypos.pw:51888/regist.html)
 
+### 【账号充值】
+[点击此处进行注册](http://lazypos.pw:51888/charge.html)
+
 ### 【安装说明】
 ###### windows (支持Vista及以上，不支持XP/2003)
 1.下载游戏并双击安装
@@ -19,8 +22,8 @@
 1.下载安装即可
 
 ### 【游戏下载】
-[Windwos 点击此处](http://lazypos.pw:51888/yhdbt_steup_63.exe) 版本：6.3.1013
-[Android 点击此处](http://lazypos.pw:51888/yhdbt_63.apk) 版本：6.3.1013
+[Windwos 点击此处](http://lazypos.pw:51888/yhdbt_steup_631016.exe) 版本：6.3.1016
+[Android 点击此处](http://lazypos.pw:51888/yhdbt_631016.apk) 版本：6.3.1016
 [Mac OS 暂不支持]()
 [IOS 暂不支持]()
 
