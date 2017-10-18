@@ -22,8 +22,8 @@
 1.下载安装即可
 
 ### 【游戏下载】
-[Windwos 点击此处](http://lazypos.pw:51888/yhdbt_steup_631016.exe) 版本：6.3.1016
-[Android 点击此处](http://lazypos.pw:51888/yhdbt_631016.apk) 版本：6.3.1016
+[Windwos 点击此处](http://lazypos.pw:51888/yhdbt_steup_651018.exe) 版本：6.5.1018
+[Android 点击此处](http://lazypos.pw:51888/yhdbt_651018.apk) 版本：6.5.1018
 [Mac OS 暂不支持]()
 [IOS 暂不支持]()
 
