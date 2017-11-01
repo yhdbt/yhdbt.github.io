@@ -7,8 +7,9 @@
 ### 【账号注册】
 [点击此处进行注册](http://lazypos.pw:51888/regist.html)
 
-### 【账号充值】
+### 【账号充值】 现在充值赠送更多积分！
 [点击此处进行充值](http://lazypos.pw:51888/charge.html)
+###### 1元 = 100积分
 
 ### 【安装说明】
 ###### windows (支持Vista及以上，不支持XP/2003)
@@ -22,8 +23,8 @@
 1.下载安装即可
 
 ### 【游戏下载】
-[Windwos 点击此处](http://lazypos.pw:51888/yhdbt_steup_651018.exe) 版本：6.5.1018
-[Android 点击此处](http://lazypos.pw:51888/yhdbt_651018.apk) 版本：6.5.1018
+[Windwos 点击此处](http://lazypos.pw:51888/yhdbt_steup_701101.exe) 版本：7.0.1101
+[Android 点击此处](http://lazypos.pw:51888/yhdbt_701101.apk) 版本：7.0.1101
 [Mac OS 暂不支持]()
 [IOS 暂不支持]()
 
