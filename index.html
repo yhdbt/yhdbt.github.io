@@ -1,297 +1,113 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>index</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-      <link rel="stylesheet" href="file:///C:\Users\zcw\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.3.0\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
-      
-      
-      
-      
-      
-      
+<html>
+  <head>    
+    <meta charset="UTF-8">
+	<title>余杭大板同官网</title>
+    <meta name="description" content="余杭大板同">
+    <meta name="author" content="lazypos">
+	
+	<!-- Mobile Specific Meta -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
-      <style> 
-      /**
- * prism.js Github theme based on GitHub's theme.
- * @author Sam Clarke
- */
-code[class*="language-"],
-pre[class*="language-"] {
-  color: #333;
-  background: none;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  word-wrap: normal;
-  line-height: 1.4;
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-  -moz-tab-size: 8;
-  -o-tab-size: 8;
-  tab-size: 8;
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-}
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
 
-/* Code blocks */
-pre[class*="language-"] {
-  padding: .8em;
-  overflow: auto;
-  /* border: 1px solid #ddd; */
-  border-radius: 3px;
-  /* background: #fff; */
-  background: #f5f5f5;
-}
+    <!-- Owl-carousel style -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
 
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-  padding: .1em;
-  border-radius: .3em;
-  white-space: normal;
-  background: #f5f5f5;
-}
+    <!-- magnific style -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
-.token.comment,
-.token.blockquote {
-  color: #969896;
-}
+    <!-- Custom stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" media="screen">
 
-.token.cdata {
-  color: #183691;
-}
+    <!-- Added google font -->
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-.token.doctype,
-.token.punctuation,
-.token.variable,
-.token.macro.property {
-  color: #333;
-}
+    <!--Fav and touch icons-->
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icons/apple-touch-icon-114x114.png">
 
-.token.operator,
-.token.important,
-.token.keyword,
-.token.rule,
-.token.builtin {
-  color: #a71d5d;
-}
-
-.token.string,
-.token.url,
-.token.regex,
-.token.attr-value {
-  color: #183691;
-}
-
-.token.property,
-.token.number,
-.token.boolean,
-.token.entity,
-.token.atrule,
-.token.constant,
-.token.symbol,
-.token.command,
-.token.code {
-  color: #0086b3;
-}
-
-.token.tag,
-.token.selector,
-.token.prolog {
-  color: #63a35c;
-}
-
-.token.function,
-.token.namespace,
-.token.pseudo-element,
-.token.class,
-.token.class-name,
-.token.pseudo-class,
-.token.id,
-.token.url-reference .token.variable,
-.token.attr-name {
-  color: #795da3;
-}
-
-.token.entity {
-  cursor: help;
-}
-
-.token.title,
-.token.title .token.punctuation {
-  font-weight: bold;
-  color: #1d3e81;
-}
-
-.token.list {
-  color: #ed6a43;
-}
-
-.token.inserted {
-  background-color: #eaffea;
-  color: #55a532;
-}
-
-.token.deleted {
-  background-color: #ffecec;
-  color: #bd2c00;
-}
-
-.token.bold {
-  font-weight: bold;
-}
-
-.token.italic {
-  font-style: italic;
-}
-
-
-/* JSON */
-.language-json .token.property {
-  color: #183691;
-}
-
-.language-markup .token.tag .token.punctuation {
-  color: #333;
-}
-
-/* CSS */
-code.language-css,
-.language-css .token.function {
-  color: #0086b3;
-}
-
-/* YAML */
-.language-yaml .token.atrule {
-  color: #63a35c;
-}
-
-code.language-yaml {
-  color: #183691;
-}
-
-/* Ruby */
-.language-ruby .token.function {
-  color: #333;
-}
-
-/* Markdown */
-.language-markdown .token.url {
-  color: #795da3;
-}
-
-/* Makefile */
-.language-makefile .token.symbol {
-  color: #795da3;
-}
-
-.language-makefile .token.variable {
-  color: #183691;
-}
-
-.language-makefile .token.builtin {
-  color: #0086b3;
-}
-
-/* Bash */
-.language-bash .token.keyword {
-  color: #0086b3;
-}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
  
-      </style>
-    </head>
-    <body for="html-export">
-      <div class="mume markdown-preview   ">
-      <h2>大板同官网  (<a href="http://www.yhdbt.pw">www.yhdbt.pw</a>)</h2>
-<h3 class="mume-header" id="&#x6E38;&#x620F;&#x89C4;&#x5219;">【游戏规则】</h3>
+	<!-- Preloader -->
 
-<p><a href="http://yhdbt.pw/rule.html">点击这里查看游戏规则</a></p>
-<h3 class="mume-header" id="&#x8D26;&#x53F7;&#x6CE8;&#x518C;">【账号注册】</h3>
+    <!-- Preloader end -->
+ 
 
-<p><a href="http://lazypos.pw:51888/regist.html">点击此处进行注册</a></p>
-<h3 class="mume-header" id="&#x8D26;&#x53F7;&#x5145;&#x503C;-&#x73B0;&#x5728;&#x5145;&#x503C;&#x8D60;&#x9001;&#x66F4;&#x591A;&#x79EF;&#x5206;">【账号充值】 现在充值赠送更多积分！</h3>
+    <!-- banner start -->
+    <section id="banner" class="banner">
+      <div class="trans-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">              
+              <h2><a href="" class="lg-logo default-color"><span style="color:#fdd994;">大板同 7.1.1107.1</span></a></h2> <!--/ .lg-logo -->
+               <div class="flex_text text-slider">
+                  <ul class="slides">
+					  <li style="font-size:40px;">请点击对应系统图标下载客户端程序</li>
+                      <li style="font-size:40px;">支持多平台数据互通的余杭大板同</li>
+                      <li style="font-size:40px;">现在，每天登陆都赠送积分</li>
+                  </ul>
+                </div>
+                <!--/.text-slider end-->                
+                <ul class="app">
+                  <li><a href=""><i class="fa fa-apple"></i></a></li>
+                  <li><a href="http://lazypos.pw:51888/yhdbt_711107.apk"><i class="fa fa-android"></i></a></li>
+                  <li><a href="http://lazypos.pw:51888/yhdbt_steup_711107.exe"><i class="fa fa-windows"></i></a></li>
+                </ul>  
+                <div class="download-block text-center">
+                   <a href="http://yhdbt.pw/rule.html" class="btn-download">游戏规则</a>
+                 </div>             
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.trans-bg -->                 
+    </section>
+    <!-- banner end -->
 
-<p><a href="http://lazypos.pw:51888/charge.html">点击此处进行充值</a></p>
-<h6 class="mume-header" id="1&#x5143;-100&#x79EF;&#x5206;">1元 = 100积分</h6>
-
-<h3 class="mume-header" id="&#x5B89;&#x88C5;&#x8BF4;&#x660E;">【安装说明】</h3>
-
-<h6 class="mume-header" id="windows-&#x652F;&#x6301;vista&#x53CA;&#x4EE5;&#x4E0A;&#x4E0D;&#x652F;&#x6301;xp2003">windows (支持Vista及以上，不支持XP/2003)</h6>
-
-<p>1.下载游戏并双击安装<br>
-2.安装过程中会让您安装VC库，如果您是第一次安装，请务必安装<br>
-如果以前安装过（提示修复），无须再次安装，可直接关闭跳过<br>
-3.双击运行桌面的快捷方式即可<br>
-4.遇到任何问题都可以加QQ群542948735进行咨询，也可以在群里找牌友</p>
-<h6 class="mume-header" id="&#x5B89;&#x5353;-&#x5185;&#x6838;&#x7248;&#x672C;40&#x53CA;&#x4EE5;&#x4E0A;">安卓 (内核版本4.0及以上)</h6>
-
-<p>1.下载安装即可</p>
-<h3 class="mume-header" id="&#x6E38;&#x620F;&#x4E0B;&#x8F7D;">【游戏下载】</h3>
-
-<p><a href="http://lazypos.pw:51888/yhdbt_steup_711107.exe">Windwos (vista 及以上系统) 点击此处</a> 版本：7.1.1107<br>
-<a href="http://lazypos.pw:51888/yhdbt_711107.apk">安卓手机/平板 点击此处</a> 版本：7.1.1107<br>
-<a href="">苹果电脑 暂不支持</a><br>
-<a href="">IOS (苹果手机/ipad) 暂不支持</a></p>
-<h3 class="mume-header" id="&#x6E38;&#x620F;&#x6548;&#x679C;">【游戏效果】</h3>
-
-<p><img src="http://yhdbt.pw/pic/xiaoguo.png" alt=""><br>
-<img src="http://yhdbt.pw/pic/xiaoguo1.png" alt=""></p>
-<h3 class="mume-header" id="&#x7559;&#x8A00;&#x677F;&#x4E0E;&#x8BBF;&#x95EE;&#x7EDF;&#x8BA1;">【留言板与访问统计】</h3>
-
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2124439"></script>
-<p><a href="http://info.flagcounter.com/UZ0U"><img src="http://s07.flagcounter.com/count2/UZ0U/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_32/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a></p>
-
-      </div>
-      <div class="md-sidebar-toc"><ul>
-<li><a href="#%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99">【游戏规则】</a></li>
-<li><a href="#%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C">【账号注册】</a></li>
-<li><a href="#%E8%B4%A6%E5%8F%B7%E5%85%85%E5%80%BC-%E7%8E%B0%E5%9C%A8%E5%85%85%E5%80%BC%E8%B5%A0%E9%80%81%E6%9B%B4%E5%A4%9A%E7%A7%AF%E5%88%86">【账号充值】 现在充值赠送更多积分！</a><br>
-* <a href="#1%E5%85%83-100%E7%A7%AF%E5%88%86">1元 = 100积分</a></li>
-<li><a href="#%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E">【安装说明】</a><br>
-* <a href="#windows-%E6%94%AF%E6%8C%81vista%E5%8F%8A%E4%BB%A5%E4%B8%8A%E4%B8%8D%E6%94%AF%E6%8C%81xp2003">windows (支持Vista及以上，不支持XP/2003)</a><br>
-* <a href="#%E5%AE%89%E5%8D%93-%E5%86%85%E6%A0%B8%E7%89%88%E6%9C%AC40%E5%8F%8A%E4%BB%A5%E4%B8%8A">安卓 (内核版本4.0及以上)</a></li>
-<li><a href="#%E6%B8%B8%E6%88%8F%E4%B8%8B%E8%BD%BD">【游戏下载】</a></li>
-<li><a href="#%E6%B8%B8%E6%88%8F%E6%95%88%E6%9E%9C">【游戏效果】</a></li>
-<li><a href="#%E7%95%99%E8%A8%80%E6%9D%BF%E4%B8%8E%E8%AE%BF%E9%97%AE%E7%BB%9F%E8%AE%A1">【留言板与访问统计】</a></li>
-</ul>
-</div>
-      <a id="sidebar-toc-btn">≡</a>
-    </body>
+   
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	  <script src="assets/js/jquery.scrollTo.min.js"></script>
+	  <script src="assets/js/jquery.localScroll.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.parallax.js"></script>
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/matchMedia.js"></script>
+    <script src="assets/js/script.js"></script>
     
-    
-    
-    <script>
-(function bindTaskListEvent() {
-  var taskListItemCheckboxes = document.body.getElementsByClassName('task-list-item-checkbox')
-  for (var i = 0; i < taskListItemCheckboxes.length; i++) {
-    var checkbox = taskListItemCheckboxes[i]
-    var li = checkbox.parentElement
-    if (li.tagName !== 'LI') li = li.parentElement
-    if (li.tagName === 'LI') {
-      li.classList.add('task-list-item')
-    }
-  }
-}())    
-</script>
-    
-<script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/easing.js"></script>
 
-var sidebarTOCBtn = document.getElementById('sidebar-toc-btn')
-sidebarTOCBtn.addEventListener('click', function(event) {
-  event.stopPropagation()
-  if (document.body.hasAttribute('html-show-sidebar-toc')) {
-    document.body.removeAttribute('html-show-sidebar-toc')
-  } else {
-    document.body.setAttribute('html-show-sidebar-toc', true)
-  }
-})
-</script>
-      
-  </html>
+
+    
+       
+  </body>
+</html>
