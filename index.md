@@ -23,10 +23,10 @@
 1.下载安装即可
 
 ### 【游戏下载】
-[Windwos 点击此处](http://lazypos.pw:51888/yhdbt_steup_701101.exe) 版本：7.0.1101
-[Android 点击此处](http://lazypos.pw:51888/yhdbt_701101.apk) 版本：7.0.1101
-[Mac OS 暂不支持]()
-[IOS 暂不支持]()
+[Windwos (vista 及以上系统) 点击此处](http://lazypos.pw:51888/yhdbt_steup_711107.exe) 版本：7.1.1107
+[安卓手机/平板 点击此处](http://lazypos.pw:51888/yhdbt_711107.apk) 版本：7.1.1107
+[苹果电脑 暂不支持]()
+[IOS (苹果手机/ipad) 暂不支持]()
 
 ### 【游戏效果】
 ![](http://yhdbt.pw/pic/xiaoguo.png)
